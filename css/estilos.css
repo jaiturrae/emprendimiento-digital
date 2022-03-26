@@ -1,0 +1,113 @@
+html * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #707070;
+}
+
+h1 {
+    font-size: 2em;
+}
+h2 {
+    font-size: 1.5em;
+}
+h3 {
+    font-size: 1em;
+}
+
+p{
+    line-height: 2em;
+}
+
+a:link {
+    color: #3b2111;
+}
+
+a:hover {
+    color: #de820f;
+}
+
+.contenedor {
+    margin: auto;
+    max-width: 576px;
+}
+
+.cabecera {
+    border-top: 10px #3b2111 solid;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #fff;
+}
+
+#logotipo {
+    float: left;
+}
+
+.banner {
+    background-image: url("../images/banner.jpg");
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.titulo_principal {
+    text-align: center;
+    border-bottom: 2px #ccc dotted;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.carta {
+    background-color: #fff;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.restorant {
+    text-align: center;
+    background-color: #f6f6f6;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.pie {
+    background-color: #3b2211;
+    color: #fff;
+    text-align: center;
+    padding: 3%;
+}
+
+.navbar {
+    float: right;
+}
+
+.navbar li {
+    display: inline-block;
+    list-style: none;
+}
+
+.navbar a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #3b2211;
+    color: #fff;
+}
+
+.img-responsiva {
+    width: 100%;
+    height: auto;
+    max-width: 540px;
+}
+
+.clearfix {
+    clear: both;
+}
